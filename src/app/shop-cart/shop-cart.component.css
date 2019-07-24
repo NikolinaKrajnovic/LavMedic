@@ -1,0 +1,15 @@
+.korpaSlike{
+    width: 60px;
+}
+.continue{
+    text-decoration: none;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    width: 15%;
+    padding: .5em;
+}
+.continue:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }

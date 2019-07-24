@@ -1,0 +1,13 @@
+<h1 class="bg">Apoteka Online</h1>
+
+        <div *ngFor="let artikal of artikliNiz"
+        (click)="select(artikal)">
+        <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{artikal.slik}}">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">{{artikal.ime}}</h5>
+                    <p class="card-text text-center" ><strong>{{artikal.cena}} RSD </strong> </p>
+                    
+                  </div>
+                </div>
+            </div>

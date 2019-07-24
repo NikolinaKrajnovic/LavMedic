@@ -1,0 +1,28 @@
+<button (click)="openModal()" class="btn btn-primary">Create new post</button>
+
+<br>
+
+<div class="row">
+<h3>Svi postovi</h3>
+</div>
+
+<br>
+
+<div class=" set container" >
+  <div class="well" >
+      <div class="media blog" *ngFor="let post of postoviNiz" [ngClass]="{'list-group-item-secondary':post === currentPost}" style="border: 1px solid rgb(216, 200, 200)" >
+        <a class="pull-left" href="#">
+        <img class="media-object"  src="{{post.slika}}">
+      </a>
+      <div class="media-body" style="padding-left: 10px;">
+        <h4 class="media-heading">{{post.ime}}</h4>
+          <p class="text">{{post.tekst}}</p>
+          <p class="text-right"> <i class="fa fa-user-circle"></i>By Pera</p>
+        <button class="btn btn-primary"  (click)="edit(post)" >Edit post</button>
+       </div>
+    </div>
+  </div>
+  <hr>
+  <dz-current-blog [post]="currentPost"></dz-current-blog>
+</div>
+

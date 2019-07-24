@@ -1,0 +1,25 @@
+li{
+    
+    font-size: 20px;
+}
+.lav {
+    font-size: 30px;
+}
+.social{
+    color:tomato;
+    padding-right: 1em;
+    font-size:20px;
+}
+.fb{
+    padding-right: 2em;
+}
+.btn {
+    background-color: tomato;
+    color: white;
+}
+.sign{
+    font-size: 12px;
+}
+.cart {
+    padding-right: 1em;
+}

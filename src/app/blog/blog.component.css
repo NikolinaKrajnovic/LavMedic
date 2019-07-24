@@ -1,0 +1,32 @@
+.set{
+    margin: auto;
+    padding: 5% 10%;
+}
+img{
+    width: 200 px;
+    height: 220px;
+}
+
+.text{
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 66px;      /* fallback */
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    text-align: justify;
+
+}
+.blog{
+    border: 2px solid rgb(210, 230, 230);
+    margin: 2em 0;
+    padding-right: 15px;
+}
+.media-body{
+    padding-left: 25px;
+   }
+li{
+    display: inline-block;
+}
