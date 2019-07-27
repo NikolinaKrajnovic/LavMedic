@@ -11,7 +11,7 @@ import { AuthService } from '../auth.service';
 export class BlogComponent implements OnInit {
 
   postoviNiz = [];
-  constructor(private dz: DomZdravljaService, private router:Router, private authService: AuthService) { }
+  constructor(private dz: DomZdravljaService, private router:Router, public authService: AuthService) { }
 
   
 dodajBlog(){

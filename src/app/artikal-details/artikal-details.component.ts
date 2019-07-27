@@ -20,7 +20,7 @@ export class ArtikalDetailsComponent implements OnInit {
   korpa=[];
 
 
-  constructor(private dz:DomZdravljaService , private router:Router, authService:AuthService) { 
+  constructor(private dz:DomZdravljaService , private router:Router,public authService:AuthService) { 
     this.subscription= this.dz.getMessage();
 
     this.subscription.subscribe(message =>{

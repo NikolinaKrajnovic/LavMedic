@@ -1,8 +1,8 @@
 
- <div class=" set container">
-   <!-- <ng-template [ngIf]="authService.prijavljen()"> -->
+ <div class=" set container"> 
+   <ng-template [ngIf]="authService.prijavljen()"> 
   <i class="fa fa-edit" (click)="dodajBlog()" style="font-size: 30px; color:gray; float:right;"></i>  
-<!-- </ng-template>           -->
+ </ng-template>      
      <div class="well">
         <div class="media blog" *ngFor="let post of postoviNiz">
           <a class="pull-left" href="#">
