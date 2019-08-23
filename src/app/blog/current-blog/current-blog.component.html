@@ -1,19 +1,18 @@
 <div *ngIf="post">
-    <h1>Naziv: {{post.ime}}</h1>
-    <div class="input-group">
-      <input type="text" class="form-control" [(ngModel)]="post.ime">
-    </div>
-    <h4>url: {{post.slika}} </h4>
-    <div class="input-group">
-      <input type="text" class="form-control" [(ngModel)]="post.slika">
-    </div>
-    <h4>Tekst: {{post.tekst}} </h4>
-    <div class="input-group">
-      <input type="text" class="form-control" [(ngModel)]="post.tekst">
-    </div>
-    <br>
-    <button type="button"
-    class="btn btn-secondary float-right">Save</button>
+  <h1>Naziv: {{post.naslov}}</h1>
+  <div class="input-group">
+    <input type="text" class="form-control" [(ngModel)]="post.naslov">
   </div>
-  
-  
+  <h4>url: {{post.slika}} </h4>
+  <div class="input-group">
+    <input type="text" class="form-control" [(ngModel)]="post.slika">
+  </div>
+  <h4>Tekst: {{post.tekst}} </h4>
+  <div class="input-group">
+    <input type="text" class="form-control" [(ngModel)]="post.tekst">
+  </div>
+  <br>
+  <button type="button"
+  class="btn btn-secondary float-right">Save</button>
+</div>
+

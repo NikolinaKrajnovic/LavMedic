@@ -1,5 +1,7 @@
 .slika{
     width: 300px;
+    position: relative;
+    left: 25%;
 }
 .container{
     padding: 0 20%;

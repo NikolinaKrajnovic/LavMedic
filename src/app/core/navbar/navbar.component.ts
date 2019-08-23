@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from 'src/app/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'dz-navbar',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(public authService:AuthService,
+    private router:Router) { }
 
   ngOnInit() {
+  }
+  signout(){
+    this.authService.signout();
+    this.router.navigate(['/signin']);
   }
 
 }

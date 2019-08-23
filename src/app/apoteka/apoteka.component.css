@@ -3,5 +3,9 @@ img {
 }
 div{
     display: inline-block;
-    padding: 5%;
+    padding: 2% 2% 2% 4%;
+
+}
+.card-body{
+    display: inline;
 }

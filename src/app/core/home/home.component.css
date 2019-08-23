@@ -1,187 +1,197 @@
 agm-map {
-    height: 300px;
-    width: 100%;
-  }
-  .medic{
-    width: 100%;
-    height: auto;
-  }
-  .text-justify{
-    text-align: center;
-    position: relative;
-    left: 5%;
-    top:20%;
-  }
-  .text-center{
-    position: relative;
-    top:10%;
-  }
-  
-  .card{
-    height: 180px;
-    width: auto;
-  }
+  height: 300px;
+  width: 100%;
+  margin-top: 5%;
+}
+.medic{
+  width: 100%;
+  height: auto;
+}
+.text-justify{
+  text-align: center;
+  position: relative;
+  left: 5%;
+  top:20%;
+}
+.text-center{
+  position: relative;
+  top:10%;
+}
+
+.card{
+  height: 180px;
+  width: auto;
+  text-align: center;
+  top: 10%;
+}
 
 
-  .card{
-    text-align: center;
-  
+.card-body{
+ padding: 0;
 }
 
 .btn {
-    border-radius: 5%;
-    text-align: center;
-    margin-right: 10px;
-    font-weight: bold;
-    color: #5f4203;
-    font-size: 15px;
-    
+  border-radius: 5%;
+  text-align: center;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #5f4203;
+  font-size: 15px;
+  
 
 }
 
 .card-title{
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 10px
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px
 }
 
 .card-img-top {
-    height: 300px;
-    width: 290x;
+  height: 300px;
+  width: 290x;
 }
 
 #car-indicators {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .carousel-indicators li {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    background-color:black;
-    
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  background-color:black;
+  
 }
 .carousel-indicators .active {
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-   
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+ 
 }
 
 .divcar .carousel-control-prev,  .carousel-control-next  {
-    font-size: 60px;
-    color:black;
-    height: 470px;
-    width: 80px;
-
+  font-size: 60px;
+  color:black;
+  height: 470px;
+  width: 80px;
 }
 
+.carousel-control-next{
+right: 3%;
+}
 
 
 
 #bigdiv {
-    margin-bottom: 30px;
-    margin-top: 15px;
-    padding-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  padding-left: 50px;
 }
 
 
 #sale  {
-    width: 100px;
-    height: 100px;
-    margin-left: 80px;
-    margin-right: 150px;
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
+  margin-right: 150px;
 }
 
 #sale2  {
-    width: 300px;
-    height: auto;
-    
-   
+  width: 300px;
+  height: auto;
+  
+ 
 }
 
 
 
 
 video {
-  height: 300px;
-  width: 600px;
-  padding: 10px;
+height: 300px;
+width: 600px;
+padding: 10px;
 }
 
 .audio {
-  width: 400px;
- 
+width: 400px;
+
 }
 
 table {
+
+    margin-left:auto; 
+    margin-right:auto;
   
-      margin-left:auto; 
-      margin-right:auto;
-    
 }
 
 td {
-  font-weight: bold;
+font-weight: bold;
 }
 
 
 #about{
-  width: 80%;
-  height: 250px;
-  background-image: url("../../../assets/img/medical-563427_1920.jpg");
-  background-size: cover;
-  position: relative;
-  left:10%;
-  margin-bottom: 3em;
-  
+width: 80%;
+height: 250px;
+background-image: url("../../../assets/img/medical-563427_1920.jpg");
+background-size: cover;
+position: relative;
+left:10%;
+margin-bottom: 3em;
+
 }
 h5{
-  position: relative;
-  left:45%;
-  padding-bottom: 1em;
-  color:tomato;
+position: relative;
+left:45%;
+padding-bottom: 1em;
+color:tomato;
 }
 .about{
-  color: tomato;
-  position: relative;
-  top:20%;
-  text-align: justify;
-  width:80%;
-  font-size: 18px;
+color: tomato;
+position: relative;
+top:20%;
+text-align: justify;
+width:80%;
+font-size: 18px;
 }
 
 .adresa{
-  position: relative;
-  left:10%;
+position: relative;
+left:10%;
 }
 
 .forma{
-  margin-top: 5em;
+margin-top: 5em;
 }
 
 input{
-  width:60%;
-  float: right;
+width:60%;
+float: right;
 }
 label{
-  padding: 1em;
+padding: 1em;
 }
 .showMore{
-  position: relative;
-  left:40%;
+position: relative;
+left:46%;
 }
 .gal{
-  width:150px;
-  height: 150px;
-  padding: 5px;
+width:150px;
+height: 150px;
+padding: 5px;
 }
-.galerijaDiv{
-  position: relative;
-  left:25%;
+
+.galeryItems{
+position: relative;
+left:30%;
 }
+.alert{
+text-align: center;
+left: 50%;
+}
+
 
 

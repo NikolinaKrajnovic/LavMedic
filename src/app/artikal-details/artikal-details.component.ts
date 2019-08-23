@@ -14,13 +14,14 @@ import { AuthService } from '../auth.service';
 export class ArtikalDetailsComponent implements OnInit {
 
   ovajArtikal: Artikal;
+  kolicina;
   subject = new Subject<any>();
   subscription = this.subject.asObservable();
-  broj: number;
+  broj: number = 1;
   korpa=[];
 
 
-  constructor(private dz:DomZdravljaService , private router:Router,public authService:AuthService) { 
+  constructor(private dz:DomZdravljaService , private router:Router,public authService:AuthService) {
     this.subscription= this.dz.getMessage();
 
     this.subscription.subscribe(message =>{
@@ -35,7 +36,9 @@ export class ArtikalDetailsComponent implements OnInit {
   ngOnInit() {
   }
   staviUKorpu(proizvod){
+    this.ovajArtikal.kolicina= this.broj
     this.dz.dodajUKorpu(proizvod);
+
   }
 
 }
